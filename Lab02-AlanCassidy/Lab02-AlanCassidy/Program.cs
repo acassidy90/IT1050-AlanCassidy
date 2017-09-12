@@ -10,7 +10,7 @@ namespace Lab02_AlanCassidy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello\\World");
         } // end main
     } // end class addition
 }
