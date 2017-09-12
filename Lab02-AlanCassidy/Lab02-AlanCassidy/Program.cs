@@ -6,24 +6,29 @@ using System.Threading.Tasks;
 
 namespace Lab02_AlanCassidy
 {
-    class Program
+    public class Product
     {
         static void Main(string[] args)
         {
-            int number1; // declare first number to add
-            int number2; // declare second number to add
-            int sum; // declare sum of number 1 and number 2
+            int x; // stores first number to be entered by user
+            int y; // stores second number to be entered by user
+            int z; // stores third number to be entered by user
+            int result; // product of numbers
 
-            Console.Write("Enter first integer: "); // prompt user // read first number from user
-            number1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("enter first integer:"); // prompt for input
+            x = Convert.ToInt32(Console.ReadLine()); // read first integer
 
-            Console.Write("Enter second integer: "); // prompt user // read second number from user
-            number2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("enter second integer:"); // prompt for input
+            y = Convert.ToInt32(Console.ReadLine()); // read second 
 
-            sum = number1 + number2; // add numbers
+            Console.Write("enter third integer:"); // prompt for input
+            z = Convert.ToInt32(Console.ReadLine()); // read third integer
 
-            Console.WriteLine("Sum is {0}", sum); // display sum
+            result = (x + y) * (z + 10); // calculate product of numbers
 
+            Console.WriteLine("Product is {0}", result);
         } // end main
     } // end class addition
 }
+
+
